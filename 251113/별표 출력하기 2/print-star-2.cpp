@@ -2,8 +2,10 @@
 using namespace std;
 
 int main() {
-    for (int i = 0; i < 5; i++) {
-        for (int j = 5; j > 0; i--) {
+    int N;
+    cin >> N;
+    for (int i = 0; i < N; i++) {
+        for (int j = N; j > 0; i--) {
             cout << '*' << " ";
         }
         cout << "\n";
