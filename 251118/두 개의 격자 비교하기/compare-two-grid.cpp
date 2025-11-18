@@ -16,13 +16,19 @@ int main() {
             cin >> matrix2[i][j];
         }
     }
+    int ansmatrix[n][m];
     for (int i = 0; i < n; i++) {
         for (int j = 0; j < n; j++) {
             if (matrix1[i][j] == matrix2[i][j]) {
-                cout << 0 << " ";
+                ansmatrix[i][j] = 0;
             } else {
-                cout << 1 << " ";
+                ansmatrix[i][j] = 1;
             }
+        }
+    }
+    for (int i = 0; i < n; i++) {
+        for (int j = 0; j < n; j++) {
+            cout << ansmatrix[i][j] << " ";
         }
         cout << endl;
     }
