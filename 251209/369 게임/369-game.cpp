@@ -5,20 +5,24 @@ using namespace std;
 int main() {
     int n;
     cin >> n;
-    int i = n;
+    int i = 1;
     while (i <= n) {
         if (i % 3 == 0) {
             cout << 0 << " ";
         } else {
-            string s = to_string(i)
+            string s = to_string(i);
             if (s.find("3") != string::npos) {
     	        cout << i << " ";
             } else if (s.find("6") != string::npos) {
     	        cout << i << " ";
-            } else if (s.find("") != string::npos) {
+            } else if (s.find("9") != string::npos) {
     	        cout << i << " ";
             }
+            else {
+                cout << i << " ";
+            }
         }
+        i++;
     }
     return 0;
 }
