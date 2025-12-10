@@ -17,7 +17,7 @@ int main() {
         if (i % 12 == 0) {
             cnt12++;
         }
-        cout << cnt2 << " " << cnt3 << " " << cnt12;
     }
+    cout << cnt2 << " " << cnt3 << " " << cnt12;
     return 0;
 }
