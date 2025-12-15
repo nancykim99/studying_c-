@@ -9,7 +9,7 @@ int main() {
         if (n == 0) {
             break;
         }
-        cout << n << " ";
+        cout << n << endl;
     }
     return 0;
 }
